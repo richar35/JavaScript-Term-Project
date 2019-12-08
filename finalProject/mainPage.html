@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ocean Games</title>
+<link rel="stylesheet" href="css/game.css" media="all"/>
+
+</head>
+<body>
+<main>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="mermaidGame/mermaidGame.html">Mermaid Game</a>
+    <a href="memoryGame/memoryGame.html">Memory Game</a>
+    <a href="snakeGame/snakeGame.html">Feed the Eel</a>
+    <a href="readMe.txt">ReadMe</a>
+    
+    </div>
+
+    <div id="main">
+        
+        <h1>Under the Sea</h1>
+        
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Let's play!</span>
+        <h3>See below for a description of each game. To choose a game click the button above.</h3>
+        <a href="readMe.txt">ReadMe</a>
+        <div class="box">
+                <h2>Mermaid Game</h2>
+                    <a href="mermaidGame/mermaidGame.html">
+                        <img alt="Mermaid" src="media/mermaid.png" style="height:100px; width:150px;" />
+                         </a> <p>Help the mermaid guide her way through the seaweed. </p>
+             </div>
+        <div class="box">
+                <h2>Memory Cards</h2>
+                <a href="memoryGame/memoryGame.html">
+                    <img alt="Memory Cards" src="media/memoryCard.jpg" style="height:100px; width:150px;" />
+                     </a>
+                    <p>Test your memory with a card matching game. See how many sea creatures you can find!</p>
+        </div>
+        <div class="box">
+                <h2>Feed the Eel</h2>
+                <a href="snakeGame/snakeGame.html">
+                    <img alt="Eel" src="media/eel.png" style="height:100px; width:150px;" />
+                     </a>
+                    <p>Test your skill level with Eli the eel. See how many fish you can eat to make him grow.</p>
+         </div>
+           
+
+    
+    
+    </div>
+   
+
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "300px";
+        document.getElementById("main").style.marginLeft = "300px";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+    </script>
+    
+
+    </body>
+    </html>

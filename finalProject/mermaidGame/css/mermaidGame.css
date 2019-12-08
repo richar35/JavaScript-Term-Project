@@ -1,0 +1,43 @@
+ body{
+        background: linear-gradient(to right, #f1f3f7,rgb(241, 116, 74), #eee8e8);
+        background-repeat: repeat-y;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 14pt;
+    }
+    h1{
+        text-align: left;
+        font-size: 2em;
+        color: 	rgb(7, 38, 80);
+        text-shadow: 2px 1px rgb(241, 116, 74);
+    }
+    button{
+        background-color: #ecee91; 
+        border: 3px solid rgb(241, 116, 74);
+        padding: 1% 1%;
+        margin: 2px;
+        font-size: 1em;
+        color: rgb(7, 38, 80);
+        text-align: center;
+        
+    }
+    button:hover{
+        background-color: rgb(253, 253, 253);
+        color: 	rgb(241, 116, 74);
+    }
+
+    div{
+        width: 100%;
+        text-align: center;
+        margin-top: 2%;
+        border: 10px solid rgb(252, 250, 248);
+    }
+    canvas{
+        display: inline;
+        border: 10px solid rgb(252, 250, 248);
+        background-image: url('../media/cartoon-water-background.jpg');
+    }
+    footer{
+        text-align: left;
+        margin-top: 2%;
+        color: rgb(7, 38, 80);
+    }

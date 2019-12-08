@@ -1,0 +1,3 @@
+This site is a final term project for CIT190. This site is copyright of Emily Richardson and should not be copied without permission. 
+
+This game is intended for kids age 7-12 years of age. This is a classic memory card game. Click the cards to try and find a match. Once the game begins, the player will have 3 minutes (180 seconds) to find all matched. Once all matches are found, the game is won.
